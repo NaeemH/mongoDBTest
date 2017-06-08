@@ -10,3 +10,5 @@ For use in MEAN Stack development:
 lets become full-stack devs!
 
 sudo chown -R $USER /data/db
+
+run: $ node app.js
