@@ -1,0 +1,87 @@
+Last login: Thu Jun  8 14:36:56 on ttys001
+Naeems-MacBook-Pro:~ naeemhossain$ uninstall
+-bash: uninstall: command not found
+Naeems-MacBook-Pro:~ naeemhossain$ npm uninstall
+npm ERR! npm uninstall [<@scope>/]<pkg>[@<version>]... [--save-prod|--save-dev|--save-optional] [--no-save]
+npm ERR! 
+npm ERR! aliases: un, unlink, remove, rm, r
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                     │
+│               Try running with sudo or get access               │
+│              to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/naeemhossain/.config │
+└─────────────────────────────────────────────────────────────────┘
+Naeems-MacBook-Pro:~ naeemhossain$ sudo npm uninstall
+Password:
+npm ERR! npm uninstall [<@scope>/]<pkg>[@<version>]... [--save-prod|--save-dev|--save-optional] [--no-save]
+npm ERR! 
+npm ERR! aliases: un, unlink, remove, rm, r
+Naeems-MacBook-Pro:~ naeemhossain$ ls
+Applications				Systems.git
+Desktop					Tourifai
+Documents				data
+Downloads				eclipse
+FlaskRU					flask-ghpages-example
+Library					iCloud Drive (Archive)
+Movies					java-getting-started
+Music					meanjs
+NaeemH.github.io			meanjs-mean-7eedfcc
+PaladinTemp				mongodb-osx-x86_64-enterprise-3.4.4.tar
+Pictures				node_modules
+Projects				package-lock.json
+Public					url-shortener
+Naeems-MacBook-Pro:~ naeemhossain$ cd data
+Naeems-MacBook-Pro:data naeemhossain$ cd data
+-bash: cd: data: No such file or directory
+Naeems-MacBook-Pro:data naeemhossain$ ls
+db
+Naeems-MacBook-Pro:data naeemhossain$ cd ..
+Naeems-MacBook-Pro:~ naeemhossain$ ls
+Applications				Systems.git
+Desktop					Tourifai
+Documents				data
+Downloads				eclipse
+FlaskRU					flask-ghpages-example
+Library					iCloud Drive (Archive)
+Movies					java-getting-started
+Music					meanjs
+NaeemH.github.io			meanjs-mean-7eedfcc
+PaladinTemp				mongodb-osx-x86_64-enterprise-3.4.4.tar
+Pictures				node_modules
+Projects				package-lock.json
+Public					url-shortener
+Naeems-MacBook-Pro:~ naeemhossain$ cd data
+Naeems-MacBook-Pro:data naeemhossain$ pwd
+/Users/naeemhossain/data
+Naeems-MacBook-Pro:data naeemhossain$ cd db
+Naeems-MacBook-Pro:db naeemhossain$ pwd
+/Users/naeemhossain/data/db
+Naeems-MacBook-Pro:db naeemhossain$ sudo chown -R $naeemhossain /data/db
+Password:
+usage: chown [-fhv] [-R [-H | -L | -P]] owner[:group] file ...
+       chown [-fhv] [-R [-H | -L | -P]] :group file ...
+Naeems-MacBook-Pro:db naeemhossain$ cd ..
+Naeems-MacBook-Pro:data naeemhossain$ cd ..
+Naeems-MacBook-Pro:~ naeemhossain$ ls
+Applications				Systems.git
+Desktop					Tourifai
+Documents				data
+Downloads				eclipse
+FlaskRU					flask-ghpages-example
+Library					iCloud Drive (Archive)
+Movies					java-getting-started
+Music					meanjs
+NaeemH.github.io			meanjs-mean-7eedfcc
+PaladinTemp				mongodb-osx-x86_64-enterprise-3.4.4.tar
+Pictures				node_modules
+Projects				package-lock.json
+Public					url-shortener
+Naeems-MacBook-Pro:~ naeemhossain$ cd Projects/MongoTest
+Naeems-MacBook-Pro:MongoTest naeemhossain$ ls
+app.js					package-lock.json
+mongodb-osx-x86_64-enterprise-3.4.4	package.json
+node_modules
+Naeems-MacBook-Pro:MongoTest naeemhossain$ node app.js
+Connected successfully to server
+Naeems-MacBook-Pro:MongoTest naeemhossain$ 

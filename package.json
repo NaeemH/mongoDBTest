@@ -1,0 +1,22 @@
+{
+  "name": "mongotest",
+  "version": "1.0.0",
+  "description": "mongoDB intrductory test for the MEAN stack",
+  "main": "foo",
+  "scripts": {
+    "test": "nemo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NaeemH"
+  },
+  "keywords": [
+    "mongoDB",
+    "test"
+  ],
+  "author": "Naeem Hossain",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mongodb": "^2.2.28"
+  }
+}
