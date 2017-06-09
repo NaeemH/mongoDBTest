@@ -9,6 +9,10 @@ For use in MEAN Stack development:
 
 lets become full-stack devs!
 
-sudo chown -R $USER /data/db
-
-run: $ node app.js
+$ cd <homeDirectory>
+$ sudo mkdir -p /data/db
+$ sudo chown -R $<USER> /data/db
+$ mongod
+<separate terminal>
+$ cd /dirName
+$ node app.js

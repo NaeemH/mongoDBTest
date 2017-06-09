@@ -1,22 +1,4 @@
-Last login: Thu Jun  8 14:36:56 on ttys001
-Naeems-MacBook-Pro:~ naeemhossain$ uninstall
--bash: uninstall: command not found
-Naeems-MacBook-Pro:~ naeemhossain$ npm uninstall
-npm ERR! npm uninstall [<@scope>/]<pkg>[@<version>]... [--save-prod|--save-dev|--save-optional] [--no-save]
-npm ERR! 
-npm ERR! aliases: un, unlink, remove, rm, r
-
-┌─────────────────────────────────────────────────────────────────┐
-│                     npm update check failed                     │
-│               Try running with sudo or get access               │
-│              to the local update config store via               │
-│ sudo chown -R $USER:$(id -gn $USER) /Users/naeemhossain/.config │
-└─────────────────────────────────────────────────────────────────┘
-Naeems-MacBook-Pro:~ naeemhossain$ sudo npm uninstall
-Password:
-npm ERR! npm uninstall [<@scope>/]<pkg>[@<version>]... [--save-prod|--save-dev|--save-optional] [--no-save]
-npm ERR! 
-npm ERR! aliases: un, unlink, remove, rm, r
+Last login: Fri Jun  9 15:04:28 on ttys000
 Naeems-MacBook-Pro:~ naeemhossain$ ls
 Applications				Systems.git
 Desktop					Tourifai
@@ -32,56 +14,136 @@ Pictures				node_modules
 Projects				package-lock.json
 Public					url-shortener
 Naeems-MacBook-Pro:~ naeemhossain$ cd data
-Naeems-MacBook-Pro:data naeemhossain$ cd data
--bash: cd: data: No such file or directory
 Naeems-MacBook-Pro:data naeemhossain$ ls
+WiredTiger				diagnostic.data
+WiredTiger.lock				index-1--5896678270262956284.wt
+WiredTiger.turtle			index-3--5896678270262956284.wt
+WiredTiger.wt				index-4--5896678270262956284.wt
+WiredTigerLAS.wt			journal
+_mdb_catalog.wt				mongod.lock
+collection-0--5896678270262956284.wt	sizeStorer.wt
+collection-2--5896678270262956284.wt	storage.bson
+db
+Naeems-MacBook-Pro:data naeemhossain$ ls
+WiredTiger				diagnostic.data
+WiredTiger.lock				index-1--5896678270262956284.wt
+WiredTiger.turtle			index-3--5896678270262956284.wt
+WiredTiger.wt				index-4--5896678270262956284.wt
+WiredTigerLAS.wt			journal
+_mdb_catalog.wt				mongod.lock
+collection-0--5896678270262956284.wt	sizeStorer.wt
+collection-2--5896678270262956284.wt	storage.bson
 db
 Naeems-MacBook-Pro:data naeemhossain$ cd ..
+Naeems-MacBook-Pro:.Trash naeemhossain$ ls
+HossainResume 10.34.16 PM.pdf
+HossainResume 10.35.08 PM.pdf
+HossainResume 5.05.57 PM.pdf
+HossainResume-2.pdf
+HossainResume.pdf
+Peer-Review
+Recovered files
+Recovered files #1
+Recovered files #2
+Screen Shot 2017-05-28 at 10.13.31 AM.png
+a.out
+data
+data 3.06.12 PM
+drive-download-20170522T042357Z-001.zip
+meanjs-mean-0.5.0-18-g7eedfcc.zip
+mongodb-osx-x86_64-enterprise-3.4.4.tgz
+startbootstrap-freelancer-gh-pages.zip
+Naeems-MacBook-Pro:.Trash naeemhossain$ cd ..
 Naeems-MacBook-Pro:~ naeemhossain$ ls
 Applications				Systems.git
 Desktop					Tourifai
-Documents				data
-Downloads				eclipse
-FlaskRU					flask-ghpages-example
-Library					iCloud Drive (Archive)
-Movies					java-getting-started
-Music					meanjs
-NaeemH.github.io			meanjs-mean-7eedfcc
-PaladinTemp				mongodb-osx-x86_64-enterprise-3.4.4.tar
-Pictures				node_modules
-Projects				package-lock.json
-Public					url-shortener
-Naeems-MacBook-Pro:~ naeemhossain$ cd data
-Naeems-MacBook-Pro:data naeemhossain$ pwd
-/Users/naeemhossain/data
-Naeems-MacBook-Pro:data naeemhossain$ cd db
-Naeems-MacBook-Pro:db naeemhossain$ pwd
-/Users/naeemhossain/data/db
-Naeems-MacBook-Pro:db naeemhossain$ sudo chown -R $naeemhossain /data/db
+Documents				eclipse
+Downloads				flask-ghpages-example
+FlaskRU					iCloud Drive (Archive)
+Library					java-getting-started
+Movies					meanjs
+Music					meanjs-mean-7eedfcc
+NaeemH.github.io			mongodb-osx-x86_64-enterprise-3.4.4.tar
+PaladinTemp				node_modules
+Pictures				package-lock.json
+Projects				url-shortener
+Public
+Naeems-MacBook-Pro:~ naeemhossain$ pwd
+/Users/naeemhossain
+Naeems-MacBook-Pro:~ naeemhossain$ cd Projects/MongoTest/
+Naeems-MacBook-Pro:MongoTest naeemhossain$ ls
+README.md				node_modules
+app.js					package-lock.json
+log1.txt				package.json
+mongodb-osx-x86_64-enterprise-3.4.4
+Naeems-MacBook-Pro:MongoTest naeemhossain$ cd ..
+Naeems-MacBook-Pro:Projects naeemhossain$ cd ..
+Naeems-MacBook-Pro:~ naeemhossain$ pwd
+/Users/naeemhossain
+Naeems-MacBook-Pro:~ naeemhossain$ mkdir -p /data/db
+mkdir: /data/db: Permission denied
+Naeems-MacBook-Pro:~ naeemhossain$ sudo mkdir -p /data/db
 Password:
+Naeems-MacBook-Pro:~ naeemhossain$ ls
+Applications				Systems.git
+Desktop					Tourifai
+Documents				eclipse
+Downloads				flask-ghpages-example
+FlaskRU					iCloud Drive (Archive)
+Library					java-getting-started
+Movies					meanjs
+Music					meanjs-mean-7eedfcc
+NaeemH.github.io			mongodb-osx-x86_64-enterprise-3.4.4.tar
+PaladinTemp				node_modules
+Pictures				package-lock.json
+Projects				url-shortener
+Public
+Naeems-MacBook-Pro:~ naeemhossain$ sudo chown -R $USER /data/db
+Naeems-MacBook-Pro:~ naeemhossain$ ls
+Applications				Systems.git
+Desktop					Tourifai
+Documents				eclipse
+Downloads				flask-ghpages-example
+FlaskRU					iCloud Drive (Archive)
+Library					java-getting-started
+Movies					meanjs
+Music					meanjs-mean-7eedfcc
+NaeemH.github.io			mongodb-osx-x86_64-enterprise-3.4.4.tar
+PaladinTemp				node_modules
+Pictures				package-lock.json
+Projects				url-shortener
+Public
+Naeems-MacBook-Pro:~ naeemhossain$ sudo chown -R $naeemhossain /data/db
 usage: chown [-fhv] [-R [-H | -L | -P]] owner[:group] file ...
        chown [-fhv] [-R [-H | -L | -P]] :group file ...
-Naeems-MacBook-Pro:db naeemhossain$ cd ..
-Naeems-MacBook-Pro:data naeemhossain$ cd ..
-Naeems-MacBook-Pro:~ naeemhossain$ ls
-Applications				Systems.git
-Desktop					Tourifai
-Documents				data
-Downloads				eclipse
-FlaskRU					flask-ghpages-example
-Library					iCloud Drive (Archive)
-Movies					java-getting-started
-Music					meanjs
-NaeemH.github.io			meanjs-mean-7eedfcc
-PaladinTemp				mongodb-osx-x86_64-enterprise-3.4.4.tar
-Pictures				node_modules
-Projects				package-lock.json
-Public					url-shortener
-Naeems-MacBook-Pro:~ naeemhossain$ cd Projects/MongoTest
-Naeems-MacBook-Pro:MongoTest naeemhossain$ ls
-app.js					package-lock.json
-mongodb-osx-x86_64-enterprise-3.4.4	package.json
-node_modules
-Naeems-MacBook-Pro:MongoTest naeemhossain$ node app.js
-Connected successfully to server
-Naeems-MacBook-Pro:MongoTest naeemhossain$ 
+Naeems-MacBook-Pro:~ naeemhossain$ sudo chown -R $naeemhossain /data/db
+usage: chown [-fhv] [-R [-H | -L | -P]] owner[:group] file ...
+       chown [-fhv] [-R [-H | -L | -P]] :group file ...
+Naeems-MacBook-Pro:~ naeemhossain$ mongod
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten] MongoDB starting : pid=873 port=27017 dbpath=/data/db 64-bit host=Naeems-MacBook-Pro.local
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2l  25 May 2017
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten] allocator: system
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten] modules: none
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten] build environment:
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-09T15:09:04.793-0400 I CONTROL  [initandlisten] options: {}
+2017-06-09T15:09:04.794-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-09T15:09:05.263-0400 I CONTROL  [initandlisten] 
+2017-06-09T15:09:05.263-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-09T15:09:05.263-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-09T15:09:05.263-0400 I CONTROL  [initandlisten] 
+2017-06-09T15:09:05.263-0400 I CONTROL  [initandlisten] 
+2017-06-09T15:09:05.263-0400 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2017-06-09T15:09:05.376-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+2017-06-09T15:09:05.583-0400 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2017-06-09T15:09:05.583-0400 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2017-06-09T15:09:05.596-0400 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2017-06-09T15:09:05.597-0400 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2017-06-09T15:09:05.597-0400 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-09T15:09:33.093-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:52090 #1 (1 connection now open)
+2017-06-09T15:09:33.102-0400 I NETWORK  [conn1] received client metadata from 127.0.0.1:52090 conn1: { driver: { name: "nodejs", version: "2.2.28" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.6.0" }, platform: "Node.js v6.9.4, LE, mongodb-core: 2.1.12" }
+2017-06-09T15:09:33.110-0400 I -        [conn1] end connection 127.0.0.1:52090 (1 connection now open)
+
