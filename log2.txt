@@ -1,0 +1,74 @@
+Last login: Fri Jun  9 15:12:04 on ttys001
+Naeems-MacBook-Pro:~ naeemhossain$ sudo mkdir -p /data/db
+Password:
+Naeems-MacBook-Pro:~ naeemhossain$ sudo chown -R $naeemhossain /data/db
+usage: chown [-fhv] [-R [-H | -L | -P]] owner[:group] file ...
+       chown [-fhv] [-R [-H | -L | -P]] :group file ...
+Naeems-MacBook-Pro:~ naeemhossain$ cd Projects/Mongotest
+Naeems-MacBook-Pro:Mongotest naeemhossain$ ls
+README.md				node_modules
+app.js					package-lock.json
+log1.txt				package.json
+mongodb-osx-x86_64-enterprise-3.4.4
+Naeems-MacBook-Pro:Mongotest naeemhossain$ pwd
+/Users/naeemhossain/Projects/Mongotest
+Naeems-MacBook-Pro:Mongotest naeemhossain$ cd ..
+Naeems-MacBook-Pro:Projects naeemhossain$ ls
+MongoTest				junk
+Peer-Review				messenger-platform-samples-master
+SnackRU					messenger-platform-samples-master.zip
+The-Sky-is-Falling			mongodb
+c					python
+ios					web
+java
+Naeems-MacBook-Pro:Projects naeemhossain$ cd m
+-bash: cd: m: No such file or directory
+Naeems-MacBook-Pro:Projects naeemhossain$ cd mongodb/
+Naeems-MacBook-Pro:mongodb naeemhossain$ ls
+Naeems-MacBook-Pro:mongodb naeemhossain$ cd ..
+Naeems-MacBook-Pro:Projects naeemhossain$ cd MongoTest
+Naeems-MacBook-Pro:MongoTest naeemhossain$ ls
+README.md				node_modules
+app.js					package-lock.json
+log1.txt				package.json
+mongodb-osx-x86_64-enterprise-3.4.4
+Naeems-MacBook-Pro:MongoTest naeemhossain$ node app.js
+Connected successfully to server
+Naeems-MacBook-Pro:MongoTest naeemhossain$ ls
+README.md				node_modules
+app.js					package-lock.json
+log1.txt				package.json
+mongodb-osx-x86_64-enterprise-3.4.4
+Naeems-MacBook-Pro:MongoTest naeemhossain$ pwd
+/Users/naeemhossain/Projects/MongoTest
+Naeems-MacBook-Pro:MongoTest naeemhossain$ git init
+Reinitialized existing Git repository in /Users/naeemhossain/Projects/MongoTest/.git/
+Naeems-MacBook-Pro:MongoTest naeemhossain$ git add .
+Naeems-MacBook-Pro:MongoTest naeemhossain$ git commit -m"got the swag$$$"
+[master 198f5b1] got the swag962$
+ 3 files changed, 169 insertions(+), 173 deletions(-)
+ rewrite app.js (88%)
+ rewrite log1.txt (73%)
+Naeems-MacBook-Pro:MongoTest naeemhossain$ git remote add https://github.com/NaeemH/mongoDBTest.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+Naeems-MacBook-Pro:MongoTest naeemhossain$ git push -u origin master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.60 KiB | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/NaeemH/mongoDBTest.git
+   1fc13bb..198f5b1  master -> master
+Branch master set up to track remote branch master from origin by rebasing.
+Naeems-MacBook-Pro:MongoTest naeemhossain$ 
